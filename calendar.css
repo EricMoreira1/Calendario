@@ -1,4 +1,16 @@
-table, td, tr{
+table, td, tr, th{
+    align-items: center;
     border: 1px solid black;
     border-collapse: collapse;
 }
+
+body{
+    align-items: center;
+    background-color: rgb(212, 148, 255);
+}
+
+tbody{
+    text-align: center;
+    background-color: rgb(238, 220, 255);
+}
+ 
