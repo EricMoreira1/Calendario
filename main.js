@@ -4,6 +4,12 @@ function colorirDia() {
     let calendar = document.getElementById('calendar');
     let tds = calendar.getElementsByTagName('td');
     
+    // Verifica se o número digitado é válido (não maior que 30)
+    if (parseInt(days) > 30) {
+        alert("Esse número é inválido. O número não pode ser maior do que 30.");
+        return; // Sai da função imediatamente
+    }
+
     // Subtrai 1 do valor do dia porque os arrays em JavaScript começam com índice 0
     let index = parseInt(days) - 1;
     
@@ -11,6 +17,6 @@ function colorirDia() {
     if (index >= 0 && index < tds.length) {
         tds[index].style.backgroundColor = color;
     } else {
-        console.error('Dia selecionado está fora do intervalo válido.');
+        alert('Dia selecionado está fora do intervalo válido.');
     }
 }
