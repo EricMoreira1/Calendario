@@ -34,6 +34,6 @@ function colorirDia() {
 
         tds[index].style.backgroundColor = color;
     } else {
-        alert('Dia selecionado está fora do intervalo válido.');
+        alert('Dia selecionado não existe em um mês');
     }
 }
