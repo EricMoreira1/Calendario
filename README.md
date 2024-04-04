@@ -1,5 +1,7 @@
 # Calendario
 
+##
+
 ## imagem do site
 ![Capa do projeto](imagen/Captura%20de%20tela%202024-04-04%20092221.png)
 
@@ -8,7 +10,7 @@
 *`CSS3`<br>
 *`Git`<br>
 *`Github`<br>
-*`Javascript`
+*`Javascript`<br>
 
 ## Ferramentas utilizadas 
 * `VScode` 
