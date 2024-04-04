@@ -1,6 +1,7 @@
 # Calendario
 
-##
+## Logo da empresa
+![Logo do projeto](imagen/Alpha.png)
 
 ## imagem do site
 ![Capa do projeto](imagen/Captura%20de%20tela%202024-04-04%20092221.png)
