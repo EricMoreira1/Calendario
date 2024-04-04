@@ -17,9 +17,15 @@ function colorirDia() {
     
     // Verifica se o índice está dentro do intervalo válido
     if (index >= 0 && index < tds.length) {
+        // Verifica se o dia já está marcado com uma cor
+        if (tds[index].style.backgroundColor !== '') {
+            alert('Esse dia já foi selecionado.');
+            return; // Sai da função se o dia já estiver marcado
+        }
+
         // Verifica se a cor já foi selecionada três vezes
         if (colorCounts[color] >= 3) {
-            alert('O frete não tem capacidade para mais de 3 viagens');
+            alert('Você já selecionou essa cor três vezes.');
             return; // Sai da função se a cor já foi selecionada três vezes
         }
         
