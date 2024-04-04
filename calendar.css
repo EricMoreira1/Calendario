@@ -12,7 +12,7 @@ body{
     width: 100%;
     height: 100vh;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: linear-gradient(-45deg, #055c49, #149b51, #62ff33, #d7ff48);
+    background: linear-gradient(-45deg, #0a5242, #149b51, #62ff33, #d7ff48, #f4ffce);
 }
  
 #calendario{
