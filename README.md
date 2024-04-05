@@ -3,6 +3,9 @@
 ## Logo da empresa
 ![Logo da empresa](imagen/Alpha.png)
 
+## Logo da empresa
+![visão da página](imagen/c84729af-c5de-4db5-9cbd-6407a8d99c9c.gif)
+
 ## imagem do site
 ![Capa do projeto](imagen/Captura%20de%20tela%202024-04-04%20092221.png)
 
